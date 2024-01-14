@@ -1,0 +1,38 @@
+.transactionHistory {
+    margin-top: 20px;
+    display: flex;
+    width: 600px;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+.theadContainer {
+    width: 100%;
+    background-color: #3D3B40;
+}
+
+.trTable {
+    display: flex;
+    justify-content: space-around;
+}
+
+.thTable {
+    width: 100%;
+    border: 1px solid black;
+    color: white;
+}
+
+.tbodyTran:nth-child(odd) {
+    background-color: gray;
+}
+  
+.trTran {
+    display: flex;
+}
+
+.tdTran {
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
