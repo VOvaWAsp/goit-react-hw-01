@@ -4,35 +4,3 @@
     flex-direction: row;
     gap: 40px;
 }
-
-.item {
-display: flex;
-flex-direction: column;
-align-items: center;
-border: 2px solid black;
-border-radius: 10px;
-width: 80px;
-}
-
-.avatar {
-    margin: 10px auto;
-}
-
-.name {
-    font-size: large;
-}
-
-.status {
-    font-size: small;
-    margin-bottom: 5px;
-}
-
-.online {
-    composes: status;
-    color: green;
-}
-
-.offline {
-    composes: status;
-    color: red;
-}

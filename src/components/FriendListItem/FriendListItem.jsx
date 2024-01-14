@@ -1,4 +1,4 @@
-import css from "./FriendList.module.css"
+import css from "./FriendListItem.module.css"
 
 export const FriendListItem = ({friends:{avatar, name, isOnline}}) =>  {
     const onlineStatus = isOnline ? css.online : css.offline
